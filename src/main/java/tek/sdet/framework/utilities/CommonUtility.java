@@ -22,6 +22,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import tek.sdet.framework.base.BaseSetup;
 
 public class CommonUtility extends BaseSetup {
+	// all of the methods are belongs to seleniuem
 
 	public WebDriverWait getWait() {
 		return new WebDriverWait(getDriver(), Duration.ofSeconds(20));

@@ -7,6 +7,9 @@ import java.util.HashMap;
 import org.yaml.snakeyaml.Yaml;
 
 
+// we use  singlito panthers
+
+
 public class ReadYamlFiles {
 	private static ReadYamlFiles readYamlFiles;
 	private HashMap propertyMap;

@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import tek.sdet.framework.base.BaseSetup;
 
 public class AccountPage extends BaseSetup {
+	
+	// constructor created
 	public AccountPage() {
 		PageFactory.initElements(getDriver(), this);
 	}

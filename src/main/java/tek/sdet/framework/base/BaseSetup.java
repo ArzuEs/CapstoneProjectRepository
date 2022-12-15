@@ -15,6 +15,8 @@ import tek.sdet.framework.config.FireFoxBrowser;
 import tek.sdet.framework.utilities.ReadYamlFiles;
 
 public class BaseSetup {
+	
+	// for the file path we will give the path
 
 	private static WebDriver webDriver;
 	private final ReadYamlFiles environmentVariables;
