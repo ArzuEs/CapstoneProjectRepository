@@ -14,13 +14,13 @@ Feature: Account Feature
     And User click on Update button
     Then user profile information should be updated
 
-  @AccountPassword
-  Scenario: Verify User can Update password
-    And User enter below information
-      | previousPassword | newPassword | confirmPassword |
-      | Test@234         | Hadis@214   | Hadis@214       |
-    And User click on Change Password button
-    Then a message should be displayed 'Password Updated Successfully'
+  #@AccountPassword
+  #Scenario: Verify User can Update password
+    #And User enter below information
+     # | previousPassword | newPassword | confirmPassword |
+      #| Test@234         | Hadis@214   | Hadis@214       |
+    #And User click on Change Password button
+    #Then a message should be displayed 'Password Updated Successfully'
 
   @AcountPayment
   Scenario: Verify User can add a payment method
